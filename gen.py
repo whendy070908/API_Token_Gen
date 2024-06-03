@@ -1,5 +1,5 @@
 import random, os, sqlite3, time, datetime
-from datetime import timedelta, datetime
+from datetime import timedelta
 
 def make_expiretime(days):
     ServerTime = datetime.datetime.now()
